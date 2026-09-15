@@ -1,5 +1,6 @@
 import streamlit as st
-
+from components.projects import projects_section
+from components.data_lab import data_lab_section
 st.set_page_config(
     page_title = "Karan Singh | Data Science",
     page_icon="📊",
@@ -177,6 +178,15 @@ with tab4:
         `Cassandra`
         """
     )
+
+st.markdown("---")
+
+projects_section()
+
+
+st.markdown("---")
+
+data_lab_section()
 
 
 # import streamlit as st
