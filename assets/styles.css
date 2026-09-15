@@ -1,0 +1,98 @@
+/* =========================
+   GLOBAL
+========================= */
+
+.stApp {
+    background: #100c18;
+    color: #f5f0ff;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.block-container {
+    max-width: 1200px;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+
+/* =========================
+   HEADINGS
+========================= */
+
+h1 {
+    font-size: 5rem !important;
+    font-weight: 800 !important;
+    letter-spacing: -3px;
+}
+
+h2 {
+    font-size: 3rem !important;
+    font-weight: 800 !important;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+
+p {
+    font-size: 1.1rem;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.stButton > button {
+    border-radius: 30px;
+    padding: 0.7rem 1.8rem;
+    font-weight: 700;
+    border: 2px solid #b98cff;
+    background: transparent;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.portfolio-card {
+    border: 2px solid #b98cff;
+    border-radius: 24px;
+    padding: 30px;
+    margin: 15px 0;
+    background: #171220;
+    transition: 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* =========================
+   ACCENT TEXT
+========================= */
+
+.accent {
+    color: #b8ff70;
+}
+
+.lavender {
+    color: #c996ff;
+}
+
+.blue {
+    color: #8fc7ff;
+}
