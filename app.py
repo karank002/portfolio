@@ -1,6 +1,7 @@
 import streamlit as st
 from components.projects import projects_section
 from components.data_lab import data_lab_section
+
 st.set_page_config(
     page_title = "Karan Singh | Data Science",
     page_icon="📊",
@@ -19,19 +20,65 @@ with open ("assets/styles.css") as f:
         unsafe_allow_html=True)
 
 # hero 
-
 st.markdown(
-    "<div style='text-align:center; padding:80px 20px;'>"
-    "<div style='font-size:70px;'>✦</div>"
-    "<h1>KARAN <span class='accent'>SINGH</span></h1>"
-    "<h3 class='blue'>DATA SCIENCE STUDENT</h3>"
-    "<p style='max-width:650px; margin:auto;'>"
-    "Exploring data, building intelligent systems, "
-    "and learning through real-world projects."
+    "<div class='hero'>"
+
+    "<div class='profile-wrapper'>"
+
+        "<div class='profile-frame'>"
+
+            "<div class='profile-placeholder'>"
+                "YOUR<br>"
+                "PHOTO"
+            "</div>"
+
+        "</div>"
+
+    "</div>"
+
+    "<div class='hero-star'>"
+        "✦"
+    "</div>"
+
+    "<div class='star'>"
+        "✦"
+    "</div>"
+
+
+    "<div class='hero-decoration'>"
+        "───────── ✦ ─────────"
+    "</div>"
+
+    "<h1>"
+        "KARAN "
+        "<span class='accent'>SINGH</span>"
+    "</h1>"
+
+    "<div class='hero-subtitle'>"
+        "DATA SCIENCE STUDENT"
+    "</div>"
+
+    "<p class='hero-description'>"
+        "I explore data, build intelligent systems, "
+        "and turn ideas into practical projects."
     "</p>"
+
+    "<div>"
+        "<span class='spark'>✦</span>"
+        "&nbsp;&nbsp;"
+        "<span class='lavender'>PYTHON</span>"
+        "&nbsp; · &nbsp;"
+        "<span class='blue'>DATA</span>"
+        "&nbsp; · &nbsp;"
+        "<span class='accent'>ML</span>"
+        "&nbsp;&nbsp;"
+        "<span class='spark'>✦</span>"
+    "</div>"
+
     "</div>",
     unsafe_allow_html=True
 )
+
 
 
 col1, col2, col3 = st.columns(3)
@@ -60,6 +107,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
+
+
 st.markdown(
     """
     <div class="portfolio-card">
@@ -80,6 +130,17 @@ st.markdown(
 
     </div>
     """,
+    unsafe_allow_html=True
+)
+st.markdown(
+    "<div class='portfolio-card' style='text-align:center;'>"
+    "<span class='accent'>✦ CURRENTLY EXPLORING</span>"
+    "<br><br>"
+    "Python &nbsp; · &nbsp; "
+    "Data Analytics &nbsp; · &nbsp; "
+    "Machine Learning &nbsp; · &nbsp; "
+    "Big Data"
+    "</div>",
     unsafe_allow_html=True
 )
 
